@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(231, 249, 255);
+}
+h1 {
+  text-align: center;
+  padding-top: 10px;
+  color: rgb(11, 43, 51);
+}
+.caja div {
+  width: 90px;
+  height: 90px;
+  /* margin: 5px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.caja div{
+    position: absolute;
+}
+
+.uno{
+    background: red;
+    margin: 30px;
+    z-index: 99999;
+}
+.dos{
+    background: rgb(0, 162, 255);
+    margin: 60px;
+    z-index: 9999;
+}
+.tres{
+    background: rgb(255, 153, 0);
+    margin: 90px;
+}
